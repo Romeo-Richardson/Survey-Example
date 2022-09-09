@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    
+}
+
+#main {
+    display: flex;
+    position: relative;
+    height: 375px;
+    width: 375px;
+    border-radius: 30px;
+    background-color: hsl(213, 19%, 18%);
+    justify-content: center;
+    align-items: center;
+    padding: 27.5px;
+}
+
+
+#dynamic {
+    position: absolute;
+    height: 35px;
+    width: 275px;
+    background-color: hsl(217, 12%, 63%, .2);
+    bottom: 180px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(25, 97%, 53%);
+}
+
+#bodyText {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 140px;
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+}
+
+#headerText {
+    position: absolute;
+    bottom: 115px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    font-size: larger;
+}
+
+#headerText::selection {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+#bodyText::selection {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+#image {
+    position: absolute;
+    top: 75px;
+}
+

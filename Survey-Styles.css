@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    
+}
+
+#main {
+    display: flex;
+    position: relative;
+    height: 375px;
+    width: 375px;
+    border-radius: 30px;
+    background-color: hsl(213, 19%, 18%);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rating {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color:  hsl(216, 12%, 54%, .2);
+    top: 65px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    transition: .75s;
+}
+
+#submit {
+    position: absolute;
+    height: 45px;
+    width: 312.5px;
+    background-color: hsl(25, 97%, 53%);
+    bottom: 30px;
+    right: 30px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    transition: .75s
+}
+
+#bodyText {
+    position: absolute;
+    margin: 27.5px;
+    bottom: 175px;
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+}
+
+#headerText {
+    position: absolute;
+    bottom: 275px;
+    left: 27.5px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    font-size: larger;
+}
+
+#star {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 25px;
+    bottom: 315px;
+    left: 27.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating:hover {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+.rating:active {
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+#submit:hover {
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);;
+    background-color: white;
+    transform: scale(105%);
+}
+
+#headerText::selection {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+#bodyText::selection {
+    color: white;
+    background-color: hsl(25, 97%, 53%);;
+}
+
+
+
