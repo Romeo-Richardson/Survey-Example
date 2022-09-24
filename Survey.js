@@ -11,6 +11,8 @@ function firstOnClick (){
     rating.style.backgroundColor = 'hsl(25, 97%, 53%)';
     rating.style.color = 'white';
     empty.push(rating.innerHTML);
+    let clickEvents = document.getElementById('submit');
+    clickEvents.style.pointerEvents = 'all';
 };
 
 function secondOnClick (){
@@ -23,6 +25,8 @@ function secondOnClick (){
     rating.style.backgroundColor = 'hsl(25, 97%, 53%)';
     rating.style.color = 'white';
     empty.push(rating.innerHTML);
+    let clickEvents = document.getElementById('submit');
+    clickEvents.style.pointerEvents = 'all';
 };
 
 function thirdOnClick (){
@@ -35,6 +39,8 @@ function thirdOnClick (){
     rating.style.backgroundColor = 'hsl(25, 97%, 53%)';
     rating.style.color = 'white';
     empty.push(rating.innerHTML);
+    let clickEvents = document.getElementById('submit');
+    clickEvents.style.pointerEvents = 'all';
 };
 
 function fourthOnClick (){
@@ -47,6 +53,8 @@ function fourthOnClick (){
     rating.style.backgroundColor = 'hsl(25, 97%, 53%)';
     rating.style.color = 'white';
     empty.push(rating.innerHTML);
+    let clickEvents = document.getElementById('submit');
+    clickEvents.style.pointerEvents = 'all';
 };
 
 function lastOnClick (){
@@ -59,6 +67,8 @@ function lastOnClick (){
     rating.style.backgroundColor = 'hsl(25, 97%, 53%)';
     rating.style.color = 'white';
     empty.push(rating.innerHTML);
+    let clickEvents = document.getElementById('submit');
+    clickEvents.style.pointerEvents = 'all';
 };
 
 function saveValue(){
