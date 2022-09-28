@@ -7,21 +7,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Survey-Example/Survey-Styles.css">
-    <script src="/Survey-Example/Survey.js"></script>
+    <link rel="stylesheet" href="/public/Survey-Example/Survey-Styles.css">
+    <script src="/public/Survey-Example/Survey.js"></script>
     <title>Document</title>
 </head>
 <body>
         <div id="main">
             <div id="headerText">How did we do?</div>
             <div id="bodyText">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</div>
-            <div id="star"><img src="/Survey-Example/images/icon-star.svg" alt="Icon could not be displayed."></div>
+            <div id="star"><img src="/public/Survey-Example/images/icon-star.svg" alt="Icon could not be displayed."></div>
             <div class="rating" id="first" onclick="firstOnClick(empty)">1</div>
             <div class="rating" id="second" onclick="secondOnClick(empty)">2</div>
             <div class="rating" id="third" onclick="thirdOnClick(empty)">3</div>
             <div class="rating" id="fourth" onclick="fourthOnClick(empty)">4</div>
             <div class="rating" id="last" onclick="lastOnClick(empty)">5</div>
             <div id="submit" onclick="saveValue()">SUMBIT</div>
+        </div>
+        <div id="modal-blur">
+            <div id="modal">
+                <div id="modal-title-container">
+                    <div id="modal-title">Basic Survey</div>
+                </div>
+                <div id="modal-text">The purpose of this project is to provide a basic and practical display of my ability to transfer data from one page to another using Javascript. Simply select and submit a rating to see your rating displayed on the following page.</div>
+                <div id="modal-continue" onclick="closeModal()">Continue</div>
+            </div>
         </div>
     
 </body>

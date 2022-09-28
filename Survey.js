@@ -74,6 +74,11 @@ function lastOnClick (){
 function saveValue(){
     let value = empty[empty.length - 1];
     sessionStorage.setItem("newValue", value);
-    location.href = "/Survey-Example/Results.html"
+    location.href = "/public/Survey-Example/Results.html"
+};
+
+function closeModal(){
+  let modal = document.getElementById('modal-blur');
+  modal.style.transform = 'scale(0)';
 };
 
